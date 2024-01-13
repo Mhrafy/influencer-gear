@@ -1,0 +1,274 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  max-width: 1440px;
+
+}
+/* nav style */
+.nav-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 20px;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+ul li a {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-one {
+  padding: 60px 100px;
+}
+
+.nav-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* banner style */
+.banner {
+  width: 85%;
+  margin: 0 auto;
+  gap: 50px;
+  display: flex;
+  height: 550px;
+  align-items: center;
+  justify-content: end;
+}
+
+.camera {
+  position: relative;
+  bottom: 250px;
+  width: 440px;
+  height: 414px;
+  left: 50px;
+}
+
+.circle {
+  width: 475px;
+  height: 475px;
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+.banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.banner-description {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.btn i {
+  margin-left: 5px;
+  align-items: center;
+}
+
+/* logo */
+.logo {
+  width: 75%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popular {
+  display: flex;
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* gear section */
+.end {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  gap: 60px;
+}
+
+.end-title {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.end-description {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 15px;
+}
+.btn-two {
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  background: #e02c6d;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.btn-two i {
+  margin-left: 5px;
+  align-items: center;
+}
+
+/* footer section */
+footer {
+  background: #0a0826;
+  height: 240px;
+}
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-title {
+  position: relative;
+  top: 40px;
+  padding: 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-des-one {
+  position: relative;
+  top: 30px;
+  color: #d9dbe1;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+
+.footer-des-two {
+  position: relative;
+  top: 30px;
+  color: #d9dbe1;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.social a i {
+  margin-top: 50px;
+  width: 32px;
+  height: 32px;
+  color: white;
+  gap: 5px;
+}
+
+/* card start */
+.card {
+  width: 75%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  position: relative;
+  left: 15px;
+  gap: 30px;
+}
+
+.cards {
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 15px;
+}
+.card-title {
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+  padding-left: 15px;
+}
+
+.amount {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  padding-left: 15px;
+}
+
+.card-description {
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+  padding-left: 15px;
+  margin-top: 12px;
+}
+
+.link {
+  width: 75%;
+  margin: 0 auto;
+}
+.link-one {
+  position: relative;
+  left: 990px;
+}
+.link-one a {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: 700;
+}
+.link-one a i {
+  color: rgba(224, 44, 109, 0.87);
+}
