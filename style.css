@@ -280,6 +280,8 @@ footer {
   .card {
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
+    width: 100%;
+    padding-left: 25px;
   }
   .circle {
     transform: scale(0.8);
@@ -291,4 +293,23 @@ footer {
   .end-img-img {
     width: 100%;
   }
+  .nav-title {
+    width: 400px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .logo {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+   .nav-list li a {
+    font-size: 30px;
+    
+   }
 }
