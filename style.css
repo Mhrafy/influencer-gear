@@ -5,13 +5,7 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
-  
-  
-
 }
-
-
-
 /* nav style */
 .nav-one {
   display: flex;
@@ -20,15 +14,15 @@
 
 ul li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 1.25rem;
   color: #3a3a3a;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 ul li a {
   color: #3a3a3a;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -38,7 +32,7 @@ ul li a {
 
 .nav-title {
   color: #3a3a3a;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -46,7 +40,7 @@ ul li a {
 .banner {
   width: 85%;
   margin: 0 auto;
-  gap: 50px;
+  gap: 3.12rem;
   display: flex;
   height: 550px;
   align-items: center;
@@ -74,12 +68,11 @@ ul li a {
   font-size: 52px;
   font-weight: 700;
   line-height: 70px;
-  
 }
 
 .banner-description {
   color: #3a3a3a;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   padding-top: 20px;
 }
@@ -88,7 +81,7 @@ ul li a {
   display: inline-flex;
   padding: 10px 24px;
   align-items: center;
-  gap: 8px;
+  gap: 0.5px;
   border-radius: 41px;
   background: #e02c6d;
   border: none;
@@ -96,7 +89,6 @@ ul li a {
   font-size: 16px;
   font-weight: 700;
   margin-top: 20px;
-  
 }
 .btn i {
   margin-left: 5px;
@@ -158,7 +150,6 @@ ul li a {
 }
 .btn-two i {
   margin-left: 5px;
-  
 }
 
 /* footer section */
@@ -265,11 +256,10 @@ footer {
 .link {
   width: 75%;
   margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
-.link-one {
-  position: relative;
-  left: 990px;
-}
+
 .link-one a {
   color: rgba(224, 44, 109, 0.87);
   font-size: 16px;
@@ -281,12 +271,24 @@ footer {
 
 /* responsive  */
 
-@media screen and (max-width:576px) {
-  .nav-one {
+@media screen and (max-width: 576px) {
+  .nav-one,
+  .end {
     flex-direction: column;
     justify-content: center;
   }
   .card {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+  .circle {
+    transform: scale(0.8);
+  }
+  .camera {
+    transform: scale(0.8);
+  }
+
+  .end-img-img {
+    width: 100%;
   }
 }
